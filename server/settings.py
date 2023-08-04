@@ -123,3 +123,9 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+#CELERY STUFF
+CELERY_BROKER_HEARTBEAT=0
+CELERY_ALWAYS_EAGER=False
+CELERY_BROKER_URL = 'redis://localhost:6379/0'
+
