@@ -1,4 +1,6 @@
 django
 djangorestframework
 celery
-
+daphne
+whitenoise
+pip-chill
